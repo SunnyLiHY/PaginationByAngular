@@ -1,0 +1,19 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	position: relative;
+}
+a{
+	cursor:pointer;
+}
+
+.list .pagination {float:left;}
+.list .pagination span {cursor: pointer;}
+.list .pagination .separate span{cursor: default; border-top:none;border-bottom:none;}
+.list .pagination .separate span:hover {background: none;}
+.list .topage {float:left; margin: 25px 20px;}
+.list .topage input, .list .topage select{height: 26px; border: 1px solid #ddd;}
+.list .topage input {width: 40px; padding-left:3px;}
+.list .topage select {width: 50px;}
