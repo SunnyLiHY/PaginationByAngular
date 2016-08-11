@@ -10,7 +10,7 @@ testapp.controller('pageCtrl', ['$scope', function($scope) {
 	$scope.common = {
 		totalNum:27,
 		currentPage:1,
-		pagesLength: 5,
+		pageSumNum: 5,
 		perNum:2,
 		perPageNum:[2,3,4,5]
 	};

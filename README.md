@@ -2,7 +2,7 @@
 $scope.common = {<br/>
 	totalNum:27,<br/>
 	currentPage:1,<br/>
-	pagesLength: 5,<br/>
+	pageSumNum: 5,<br/>
 	perNum:2,<br/>
 	perPageNum:[2,3,4,5]<br/>
 };<br/>
@@ -11,7 +11,7 @@ $scope.common = {<br/>
 /***思路：当前页显示在页码列表的中间，页码长度固定且页码列表的长度先要判断其奇偶性***/<br/>
 /***具体细节代码看oacontroller.js***/<br/>
 /******************************** 变量说明<br/>
-**** pagesLength:页码长度<br/>
+**** pageSumNum:页码长度<br/>
 **** pageList:页码列表<br/>
 **** totalPage:总页码数<br/>
 **** currentPage:当前页<br/>
