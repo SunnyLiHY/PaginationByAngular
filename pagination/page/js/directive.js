@@ -8,7 +8,6 @@ testapp.directive('anypage', function() {
 		replace: true,
 		scope: {
 			commonConfig: '=',
-			tag:'='
 		},
 		template: '<div class="list">'+'<p>当前页:{{commonConfig.currentPage}}<p>'+
 			'<ul class = "pagination" >'+
